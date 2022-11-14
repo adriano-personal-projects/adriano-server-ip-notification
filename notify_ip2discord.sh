@@ -1,5 +1,4 @@
 #!/bin/bash
-WEBHOOOK="" # <- Add discord webhook here
 IP="$(curl ifconfig.me/ip)"
 LAST_IP="$(tail -n 1 $HOME/linux-server-ip-notification/last_ip.txt)"
 rm $HOME/linux-server-ip-notification/last_ip.txt
